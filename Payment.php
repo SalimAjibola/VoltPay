@@ -152,11 +152,11 @@ $email = $_SESSION['email'];
       const amountInKobo = amount * 100;
 
       let handler = PaystackPop.setup({
-        key: 'pk_test_4cb6468b5ea6cf85ae50ce1fe70801f6554cb976', // Replace with your Paystack test public key
-        email: "<?php echo $email; ?>",  // You can get user email dynamically or add a field
+        key: '', 
+        email: "<?php echo $email; ?>",  
         amount: amountInKobo,
         currency: 'NGN',
-        ref: '' + Math.floor((Math.random() * 1000000000) + 1), // Generate a random reference
+        ref: '' + Math.floor((Math.random() * 1000000000) + 1),
         metadata: {
           custom_fields: [
             {
