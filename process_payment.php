@@ -1,6 +1,6 @@
 <?php
 // Your Paystack secret key (use test key for testing)
-$secret_key = "sk_test_928d9ce06e16803b07de1cda5349b94aa007d072";
+$secret_key = "";
 
 // Get the reference from the URL
 if (!isset($_GET['reference'])) {
